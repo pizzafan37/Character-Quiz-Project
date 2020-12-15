@@ -1,4 +1,4 @@
-
+$( document ).ready(function() 
 var counter = 0;
 
 $("sonic, tails, knuckles, shadow").addClass("image");
@@ -37,4 +37,5 @@ counter = 0;
 $(".results").empty("");
 $(".age").val("");
 $(".describe").val("");
+});
 });
