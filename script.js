@@ -9,7 +9,7 @@ $(".submit").click(function() {
     if (description === "adventurous" && age > 8) {
         $(".results").show();
          $(".results").text("Since you're more than 8 years old and you consider yourself adventurous, you could be Sonic the Hedgehog.");
-        $(".results").append("<img src= 'https://static.wikia.nocookie.net/heroes-and-villians/images/2/27/SFModernSonicRender.png'>");
+        $(".results").append("<img src= 'SFModernSonicRender.png'>");
     } else if (description === "adventurous" && (age < 60 || age === 8)) {
         $(".results").show();
         $(".results").text("Since you're less than 60 years old (or exactly 8 years old) and consider yourself adventurous, you could be Miles 'Tails' Prower the Fox.");
